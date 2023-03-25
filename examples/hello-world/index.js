@@ -6,7 +6,7 @@ var app = module.exports = express()
 
 app.get('/', function(req, res){
 
-  res.send('This is working and creating containers');
+  res.send('Hello World');
 
 });
 
