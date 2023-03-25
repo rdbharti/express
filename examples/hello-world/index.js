@@ -5,7 +5,9 @@ var express = require('../../');
 var app = module.exports = express()
 
 app.get('/', function(req, res){
+
   res.send('This is pushing the image');
+
 });
 
 /* istanbul ignore next */
