@@ -5,7 +5,7 @@ var express = require('../../');
 var app = module.exports = express()
 
 app.get('/', function(req, res){
-  res.send('Hello World.. test');
+  res.send('Hello World RUNNING');
 });
 
 /* istanbul ignore next */
